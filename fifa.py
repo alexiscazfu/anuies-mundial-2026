@@ -125,7 +125,7 @@ st.markdown(
 # =====================================
 
 fecha_partido = datetime(
-    2026, 6, 11, 11, 30, 0,
+    2026, 6, 11, 13, 00, 0,
     tzinfo=ZoneInfo("America/Mexico_City")
 )
 
