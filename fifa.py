@@ -116,7 +116,7 @@ st.markdown(
 )
 
 st.markdown(
-    "<div class='subtitulo'>🇲🇽 MÉXICO vs SUDÁFRICA 🇿🇦</div>",
+    "<div class='subtitulo'>(🇲🇽) MÉXICO vs SUDÁFRICA (🇿🇦)</div>",
     unsafe_allow_html=True
 )
 
