@@ -222,7 +222,7 @@ with c2:
 
 with c3:
     st.metric(
-        "Goleador",
+        "Primer goleador",
         "Raúl Jiménez"
     )
 
