@@ -206,7 +206,7 @@ c1, c2, c3 = st.columns(3)
 with c1:
     st.metric(
         "Marcador",
-        "México 2-1"
+        "Mx 2-1 Za"
     )
 
 with c2:
