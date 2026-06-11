@@ -3,6 +3,8 @@ import pandas as pd
 import plotly.express as px
 from datetime import datetime
 from streamlit_autorefresh import st_autorefresh
+from datetime import datetime
+from zoneinfo import ZoneInfo
 
 # =====================================
 # CONFIGURACIÓN
@@ -122,9 +124,12 @@ st.markdown(
 # TEMPORIZADOR
 # =====================================
 
-fecha_partido = datetime(2026,6,11,11,30,0)
+fecha_partido = datetime(
+    2026, 6, 11, 11, 30, 0,
+    tzinfo=ZoneInfo("America/Mexico_City")
+)
 
-ahora = datetime.now()
+ahora = datetime.now(ZoneInfo("America/Mexico_City"))
 
 diferencia = fecha_partido - ahora
 
