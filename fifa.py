@@ -236,7 +236,7 @@ color:white;
 text-align:center;
 padding:10px;">
 
- Pronóstico basado en 91 volantes, ¡Gracias por participar!
+ Pronóstico basado en 92 volantes, ¡Gracias por participar!
 
 </div>
 """,
